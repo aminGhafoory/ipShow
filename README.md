@@ -3,12 +3,12 @@
 
 simple IP api just like [https://api64.ipify.org/](https://api64.ipify.org/)
 
-there is two endPoint one for plainText on for json
+there is two endPoints one for plainText on for json.
 
 
 ```go
-"/"     ->  text
-"/json" ->  JSON
+GET  "/"     ->  text
+GET  "/json" ->  JSON
 ```
 
 
